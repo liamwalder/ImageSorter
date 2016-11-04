@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+body {
+  background-color: #ececec !important; }
+  body nav {
+    border-bottom: 1px solid #e1e8ed !important;
+    background-color: white !important;
+    text-align: center;
+    border-radius: 0 !important; }
+    body nav a.navbar-brand {
+      float: none;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      color: black;
+      text-decoration: none;
+      font-size: 24px; }
+  body .images {
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    margin-top: 10px;
+    padding-bottom: 70px; }
+    body .images .image-holder .image-container {
+      position: relative;
+      -webkit-column-break-inside: avoid;
+      page-break-inside: avoid;
+      break-inside: avoid;
+      padding: 5px; }
+      body .images .image-holder .image-container .selectable-image {
+        cursor: pointer;
+        width: 100%;
+        border-radius: 5px; }
+      body .images .image-holder .image-container .overlay {
+        position: absolute;
+        width: 98%;
+        height: 96.8%;
+        color: #FFF;
+        display: block;
+        background: rgba(255, 255, 255, 0.3);
+        text-align: right;
+        left: 1%;
+        top: 1.5%;
+        cursor: pointer; }
+        body .images .image-holder .image-container .overlay span {
+          font-family: 'Yanone Kaffeesatz', sans-serif;
+          color: black;
+          font-size: 34px;
+          top: -5px;
+          right: 12px;
+          position: relative; }
+  body .toolbar {
+    border-top: 1px solid #e1e8ed !important;
+    width: 100%;
+    background: white;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    left: 0; }
+    body .toolbar p {
+      margin: 0;
+      font-size: 26px;
+      display: inline-block; }
+    body .toolbar .button-group {
+      float: right; }
+      body .toolbar .button-group button {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 17px;
+        margin-left: 10px; }
+      body .toolbar .button-group label {
+        cursor: pointer;
+        font-size: 18px;
+        margin-bottom: 0; }
+  body .file-upload {
+    text-align: center;
+    margin-top: 25px; }
+    body .file-upload .upload {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1; }
+    body .file-upload label {
+      max-width: 80%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+      display: inline-block;
+      overflow: hidden;
+      padding: 0.625rem 1.25rem;
+      color: #0275d8;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 21px;
+      font-weight: 500; }
+      body .file-upload label figure {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #0275d8;
+        display: block;
+        padding: 20px;
+        margin: 0 auto 10px; }
+        body .file-upload label figure svg {
+          width: 100%;
+          height: 100%;
+          fill: #FFF; }
+      body .file-upload label:hover {
+        color: #025aa5; }
+      body .file-upload label:hover figure {
+        background-color: #025aa5; }
+  body .download {
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif; }
+    body .download h1 {
+      margin-bottom: 35px; }
+    body .download a {
+      font-size: 24px; }
+  body .error {
+    color: #d9534f; }
+
+/*# sourceMappingURL=app.css.map */
