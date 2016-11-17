@@ -15,7 +15,8 @@
                 <div class="button-group">
                     <input type="checkbox" id="checkbox" v-model="checked" /> <label for="checkbox">Overwrite filename with order (eg. 01.jpg)</label>
                     <button type="button" class="btn btn-secondary" v-on:click="reset()">Reset</button>
-                    <button type="button" class="btn btn-primary" v-on:click="finish()">Finish sorting <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-primary" v-on:click="finish()" v-show="orderedImages.length > 0">Finish sorting <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-primary" disabled v-show="orderedImages.length == 0">Finish sorting <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
