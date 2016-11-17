@@ -24,6 +24,17 @@ body {
       font-size: 24px;
     }
 
+    p {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      color: black;
+      margin-bottom: 0;
+
+      .fa {
+        font-size: 10px;
+      }
+
+    }
+
   }
 
   .images {

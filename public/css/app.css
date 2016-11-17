@@ -12,6 +12,12 @@ body {
       color: black;
       text-decoration: none;
       font-size: 24px; }
+    body nav p {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      color: black;
+      margin-bottom: 0; }
+      body nav p .fa {
+        font-size: 10px; }
   body .images {
     -webkit-column-count: 5;
     -moz-column-count: 5;
