@@ -116,6 +116,9 @@
                 this.orderedImages = [];
                 this.keysWithNoImage = [];
                 this.orderedStrippedImages = [];
+                $.each(this.images, function(key, image) {
+                    image.selection = 0;
+                });
             }
         }
     }
