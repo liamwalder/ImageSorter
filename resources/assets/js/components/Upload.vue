@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="upload-select">
         <div class="file-upload">
             <input type="file" @change="storeUploadedImages($event)" id="upload" class="upload" data-multiple-caption="{count} files selected" multiple>
             <label for="upload">

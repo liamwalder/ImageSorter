@@ -117,60 +117,65 @@ body {
     }
   }
 
-  .file-upload {
-    text-align: center;
-    margin-top: 25px;
+  .upload-select {
+    display: flex;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
 
-    .upload {
-      width: 0.1px;
-      height: 0.1px;
-      opacity: 0;
-      overflow: hidden;
-      position: absolute;
-      z-index: -1;
-    }
+    .file-upload {
 
-    label {
-      max-width: 80%;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      cursor: pointer;
-      display: inline-block;
-      overflow: hidden;
-      padding: 0.625rem 1.25rem;
-      color: #0275d8;
-      font-family: 'Yanone Kaffeesatz', sans-serif;
-      font-size: 21px;
-      font-weight: 500;
+      .upload {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+      }
 
-      figure {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        background-color: #0275d8;
-        display: block;
-        padding: 20px;
-        margin: 0 auto 10px;
+      label {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        padding: 0.625rem 1.25rem;
+        color: #0275d8;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 38px;
+        font-weight: 500;
 
-        svg {
-          width: 100%;
-          height: 100%;
-          fill: #FFF;
+        figure {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          background-color: #0275d8;
+          display: block;
+          padding: 35px;
+          margin: 0 auto 10px;
+
+          svg {
+            width: 100%;
+            height: 100%;
+            fill: #FFF;
+          }
+
+        }
+
+        &:hover {
+          color: #025aa5;
+        }
+
+        &:hover figure {
+          background-color: #025aa5;
         }
 
       }
 
-      &:hover {
-        color: #025aa5;
-      }
-
-      &:hover figure {
-        background-color: #025aa5;
-      }
-
     }
-
   }
+
 
   .download {
     margin-top: 35px;

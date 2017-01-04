@@ -19,7 +19,6 @@
 
         <nav class="navbar">
             <a class="navbar-brand" href="#">ImageSorter | <i class="fa fa-picture-o" aria-hidden="true"></i></a>
-            <p><i class="fa fa-heart" aria-hidden="true"></i> Liam Walder</p>
         </nav>
 
         <div id="container" class="container-fluid">
